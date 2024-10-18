@@ -15,7 +15,7 @@ function App() {
         <h1 className="text-center text-4xl font-black">Calculadora de propinas y consumo</h1>
       </header>
 
-      <main className=' max-w-7xl mx-auto py-20 grid md:grid-cols-2'>
+      <main className=' max-w-7xl mx-auto py-5 grid md:grid-cols-2'>
         <div className='p-5'>
           <h2 className='text-4xl font-black'>Menú</h2>
           <div className='space-y-3 mt-10'>
@@ -49,9 +49,12 @@ function App() {
             <p className="text-center">La orden está vacía</p>
           )
           }
-          
         </div>
       </main>
+      <footer>
+        <h5 className='bg-orange-400 py-4 font-semibold text-center text-xl'>Acerca de</h5>
+        <p className=' p-5'>Este proyecto fue creado en React, utilizando Vite, TypeScript y Tailwind CSS. Se crearon componentes, Hooks personalizados y helpers para dar formato de moneda. Se realizó la optimización haciendo uso de render bajo demanda.</p>
+      </footer>
     </>
   )
 }
